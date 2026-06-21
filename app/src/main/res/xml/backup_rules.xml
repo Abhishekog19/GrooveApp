@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude the Room database from backup (it'll be re-scanned) -->
+    <exclude domain="database" path="groove_music.db" />
+    <!-- Keep DataStore preferences (session restore) -->
+</full-backup-content>

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../../../Smusic"
+		},
+		{
+			"path": "../../../../../../../../.."
+		},
+		{
+			"path": "../../../../../../../../../../NXTCART - Copy/NXTCART - Copy"
+		},
+		{
+			"path": "../../../../../../../../../../Smusic - DSA"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}

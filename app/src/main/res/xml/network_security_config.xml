@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <!-- ── Local development server (HTTP allowed for LAN IPs only) ───────────── -->
+    <!-- Allows http:// to your Node.js server running on your PC (192.168.x.x) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">192.168.0.204</domain>
+        <!-- Add more local IPs here if your PC IP changes -->
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <!-- 10.0.2.2 = Android emulator loopback alias for host PC localhost -->
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+
+    <!-- ── External HTTPS domains (cleartext blocked) ─────────────────────────── -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">open.spotify.com</domain>
+        <domain includeSubdomains="true">api-partner.spotify.com</domain>
+        <domain includeSubdomains="true">spotifycdn.com</domain>
+        <domain includeSubdomains="true">tidal.com</domain>
+        <domain includeSubdomains="true">listen.tidal.com</domain>
+    </domain-config>
+
+    <!-- Default: block cleartext everywhere else -->
+    <base-config cleartextTrafficPermitted="false" />
+
+</network-security-config>

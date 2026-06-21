@@ -1,0 +1,9 @@
+# local.properties — NEVER COMMIT TO GIT (it's in .gitignore)
+# Copy this file and fill in your actual values
+
+# Your deployed Node.js server base URL (must be HTTPS in production)
+SERVER_BASE_URL=https://your-server.com
+
+# Random API key shared between your server and this app
+# Generate with: openssl rand -hex 32
+GROOVE_API_KEY=your_random_api_key_here

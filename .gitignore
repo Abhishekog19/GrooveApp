@@ -1,0 +1,50 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Java/Kotlin class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+.gradle-local/
+build/
+/build
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.kotlin/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log/debug files
+*.hprof
+*.log
+
+# External native build
+.externalNativeBuild
+.cxx
+
+# Google services (if not meant to be public)
+# google-services.json
+
+captures/
+.navigation/
+captures/
+.DS_Store
